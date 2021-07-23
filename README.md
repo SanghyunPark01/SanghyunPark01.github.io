@@ -1,2 +1,3 @@
 # SanghyunPark01.github.io  
-my github blog
+My github blog  
+[Sanghyun's Blog](https://sanghyunpark01.github.io/)
