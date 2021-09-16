@@ -3,7 +3,7 @@ title:  "My first post"
 excerpt: "My first post in my github blog"
 
 categories:
-  - Blog
+  - etc
 
 toc: true
 toc_sticky: true
