@@ -3,7 +3,7 @@ title:  "[Sig&Sys-study]Ch01-1"
 excerpt: "Ch01 Signals and Systems"
 
 categories:
-  - Signals&Systems_study
+  - SigSys_study
 tags:
   - [Signals&Systems]
 
