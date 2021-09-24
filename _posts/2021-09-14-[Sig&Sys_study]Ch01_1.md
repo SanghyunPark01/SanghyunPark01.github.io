@@ -1,6 +1,6 @@
 ---
 title:  "[Sig&Sys-study]Ch01-1"
-excerpt: "Ch01 Signals and Systems"
+excerpt: "Ch01 Signals and Systems(1)"
 
 categories:
   - SigSys_study
