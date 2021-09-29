@@ -155,7 +155,7 @@ A system is time invariant
 * 시스템의 출력,특성,행동 등이 시간에 따라 바뀌지 않는것을 시불변성이라 한다.  
 * $x(t)\rightarrow y(t),\, x(t-t_0)\rightarrow y(t-t_0)$  
 * $x[n]\rightarrow y[n],\,x[n-n_0]\rightarrow y[n-n_0]$  
-* 예시 : 회로에서 소자들의 값이 일정하면 동이란 source에 대해 동일한 결과가 나옴  
+* 예시 : 회로에서 소자들의 값이 일정하면 동일한 source에 대해 동일한 결과가 나옴  
 * 이해를 돕기 위한 다른예시는 아래 참고  
 * <p align=""><img src="https://user-images.githubusercontent.com/77342519/134664691-427e1d81-f418-4a6d-b679-14352b2e5c48.png" width="70%" height="50%"></p>  
 * <p align=""><img src="https://user-images.githubusercontent.com/77342519/134664970-feae8785-a8b3-4c7b-bafe-c1750270eae5.png" width="70%" height="50%"></p>  
