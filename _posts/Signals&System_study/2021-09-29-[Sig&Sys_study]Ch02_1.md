@@ -71,7 +71,7 @@ $y(t)=h(t)*x(t)=\int _{-\infty}^{\infty}h(\tau)x(t-\tau)d\tau$
 ---
 
 # 2.3 Properties of LTI Systems  
-**출력이 $X(t)$ 와 $h(t)$ 의 convolution으로 나타낼 수 있는건 LTI시스템 에서만 성립**  
+**출력이 $x(t)$ 와 $h(t)$ 의 convolution으로 나타낼 수 있는건 LTI시스템 에서만 성립**  
 ## Commutative(교환), Distributive(분배), Associative(결합) Property  
 **교환법칙**  
 <p align=""><img src="https://user-images.githubusercontent.com/77342519/135301495-1a3c9bc1-fa03-4e94-934e-ced8d42ce6ce.png" width="70%" height="50%"></p>  
