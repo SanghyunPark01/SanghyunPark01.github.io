@@ -12,8 +12,31 @@
       </li>
       <li>
         <!--span 태그로 카테고리들을 크게 분류 #-->
-        <span class="nav__sub-title">Study</span>
+        <span class="nav__sub-title">Project</span>
             <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
+            <ul>
+                <!--DL_study 카테고리 글들을 모아둔 페이지인 /categories/DL_study 주소의 글로 링크 연결-->
+                <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
+                {% for category in site.categories %}
+                    {% if category[0] == "Basic_Autodrive_Software" %}
+                        <li><a href="/categories/Basic_Autodrive_Software" class="">[2021-2]Basic Autonomous Driving Software ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        <!----------------------------------------------------> 
+        <span class="nav__sub-title">Visual SLAM</span>
+            <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
+            <ul>
+                <!--DL_study 카테고리 글들을 모아둔 페이지인 /categories/DL_study 주소의 글로 링크 연결-->
+                <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
+                {% for category in site.categories %}
+                    {% if category[0] == "Start_VS" %}
+                        <li><a href="/categories/Start_VS" class="">Start Visual SLAM({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        <!---------------------------------------------------->
+        <span class="nav__sub-title">Study</span>
             <ul>
                 <!--DL_study 카테고리 글들을 모아둔 페이지인 /categories/DL_study 주소의 글로 링크 연결-->
                 <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
@@ -30,14 +53,7 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-        <span class="nav__sub-title">Project</span>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Basic_Autodrive_Software" %}
-                        <li><a href="/categories/Basic_Autodrive_Software" class="">[2021-2]Basic Autonomous Driving Software ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
+        <!----------------------------------------------------> 
         <span class="nav__sub-title">Information</span>
             <ul>
                 {% for category in site.categories %}
@@ -46,6 +62,7 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+        <!----------------------------------------------------> 
         <span class="nav__sub-title">etc</span>
             <ul>
                 {% for category in site.categories %}
