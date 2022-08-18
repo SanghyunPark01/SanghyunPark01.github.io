@@ -3,7 +3,7 @@ title:  "Introcude"
 excerpt: "Introcude this category"
 
 categories:
-  - Linux
+  - Ubuntu
 
 toc: true
 toc_sticky: true
@@ -13,4 +13,4 @@ last_modified_at: 2021-12-01
 ---  
 
 # Introduce  
-이 카테고리는 프로젝트나 실습을하다 오류 및 삽질을 기록하는 카테고리 입니다.
+이 카테고리는 Ubuntu에서 팁 및 오류해결 기록을 하는 카테고리입니다.

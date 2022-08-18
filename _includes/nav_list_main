@@ -24,14 +24,18 @@
                 {% endfor %}
             </ul>
         <!----------------------------------------------------> 
-        <span class="nav__sub-title">Visual SLAM</span>
-            <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
+        <span class="nav__sub-title">Robotics</span>
             <ul>
-                <!--DL_study 카테고리 글들을 모아둔 페이지인 /categories/DL_study 주소의 글로 링크 연결-->
-                <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
                 {% for category in site.categories %}
-                    {% if category[0] == "Start_VS" %}
-                        <li><a href="/categories/Start_VS" class="">Start Visual SLAM({{category[1].size}})</a></li>
+                    {% if category[0] == "Visual SLAM" %}
+                        <li><a href="/categories/Visual SLAM" class="">Visual SLAM({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "ROS" %}
+                        <li><a href="/categories/ROS" class="">ROS({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -54,11 +58,18 @@
                 {% endfor %}
             </ul>
         <!----------------------------------------------------> 
-        <span class="nav__sub-title">Information</span>
+        <span class="nav__sub-title">Tips</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Linux" %}
-                        <li><a href="/categories/Linux" class="">Linux ({{category[1].size}})</a></li>
+                    {% if category[0] == "Ubuntu" %}
+                        <li><a href="/categories/Ubuntu" class="">Ubuntu ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "CV" %}
+                        <li><a href="/categories/CV" class="">Resume & CV ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
