@@ -47,6 +47,15 @@
                 {% endfor %}
             </ul>
         <!---------------------------------------------------->
+        <span class="nav__sub-title">Ubuntu</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Ubuntu Setting" %}
+                        <li><a href="/categories/Ubuntu Setting" class="">Ubuntu Setting({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        <!---------------------------------------------------->
         <span class="nav__sub-title">Study</span>
             <ul>
                 <!--DL_study 카테고리 글들을 모아둔 페이지인 /categories/DL_study 주소의 글로 링크 연결-->
@@ -66,13 +75,6 @@
             </ul>
         <!----------------------------------------------------> 
         <span class="nav__sub-title">Tips</span>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Ubuntu" %}
-                        <li><a href="/categories/Ubuntu" class="">Ubuntu ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "CV" %}

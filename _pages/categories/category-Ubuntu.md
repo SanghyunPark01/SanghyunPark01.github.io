@@ -1,11 +1,11 @@
 ---
-title: "Ubuntu 에서 팁 및 오류해결"
+title: "Ubuntu Setting"
 layout: archive
-permalink: categories/Ubuntu
+permalink: categories/Ubuntu Setting
 author_profile: true
 sidebar_main: true
 ---  
 
 
-{% assign posts = site.categories.Ubuntu %}
+{% assign posts = site.categories.['Ubuntu Setting'] %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
