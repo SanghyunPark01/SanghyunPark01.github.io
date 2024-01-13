@@ -65,4 +65,5 @@ USB가 연결되었으면 자동으로 장치가 선택되어있을 것이다. �
 아래와 같은 상태가 되면 '닫기'를 눌러 마무리 한다.
 <p align="center"><img src="/Post_img/Ubuntu/Tips/Ubuntu_Install0_rufus_start_5.jpg" width="80%" height="100%"></p> 
 
-이제 부팅 USB제작은 끝났다. 다음으로 외장 SSD파티션 설정과 Ubuntu 설치를 설명할 것이다.
+이제 부팅 USB제작은 끝났다. 다음으로 외장 SSD파티션 설정과 Ubuntu 설치를 설명할 것이다.  
+[[다음 글]Ubuntu 22.04 설치](https://sanghyunpark01.github.io/ubuntu/tips/Ubuntu_Install-1/)
