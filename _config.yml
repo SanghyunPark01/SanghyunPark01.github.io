@@ -21,7 +21,7 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Sanghuyn Park"
 description              : "Sanghyun's Blog"
-url                      : "https://sanghyunpark01.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://sanghyunpark01.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "SanghyunPark01/BlogComments" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -105,11 +105,14 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Robotics-SLAM Engineer"
   location         : "South Korea"
-  email            :
+  email            : 
   links:
+    - label: "Blog's Home"
+      icon: "fas fa-fw fa-home"
+      url: "https://sanghyunpark01.github.io"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:pash0302@naver.com
+      url: mailto:pash0302@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -150,6 +153,9 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin-in"
+      url: "https://www.linkedin.com/in/%EC%83%81%ED%98%84-%EB%B0%95-02bbb4247/"
 
 
 
