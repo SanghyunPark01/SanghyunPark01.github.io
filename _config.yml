@@ -59,8 +59,8 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
+search                   : true # true, false (default)
+search_full_content      : true # true, false (default)
 search_provider          : # lunr (default), algolia, google
 algolia:
   application_id         : # YOUR_APPLICATION_ID
@@ -102,17 +102,17 @@ analytics:
 # Site Author
 author:
   name             : "Sanghyun Park"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/img.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Robotics-SLAM Engineer"
   location         : "South Korea"
-  email            : 
+  email            : "pash0302@gmail.com"
   links:
     - label: "Blog's Home"
       icon: "fas fa-fw fa-home"
       url: "https://sanghyunpark01.github.io"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:pash0302@gmail.com
+      # url: mailto:pash0302@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
