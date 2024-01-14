@@ -118,4 +118,7 @@ user설정은 하고싶은대로 한다. Continue를 누르면 아래와 같이 
 우분투가 잘 켜질 것이다.  기존 윈도우로 들어가고 싶을 때, BIOS에 들어가서 부팅 순서를 변경해주면 된다.  
 
 만약 잘 안켜진다면 10분정도 대기해본다. 대기해도 안켜진다면, 아래 링크를 참고해서 해결할 수 있다.  
-[Ubuntu Nouveau끄기](https://sanghyunpark01.github.io/ubuntu/troubleshooting/Nouveau/)
+[Ubuntu Nouveau끄기](https://sanghyunpark01.github.io/ubuntu/troubleshooting/Nouveau/)  
+
+**우분투 초기설정은 아래 링크에서 확인 가능하다.**  
+[우분투 초기 설정](https://sanghyunpark01.github.io/ubuntu/tips/Ubuntu_setting-0/)
