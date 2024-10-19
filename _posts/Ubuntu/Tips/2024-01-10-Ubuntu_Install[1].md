@@ -86,9 +86,9 @@ Ubuntu 설치
 <p align="center"><img src="/Post_img/Ubuntu/Tips/Ubuntu_Install1_install3.png" width="80%" height="100%"></p>  
 
 **[매우 중요!!!!!!!!!!!!!!]**  
-바로 위 사진에서 `Install third-party software...`가 있는데, 체크를 하면 자동으로 Nvidia graphic driver를 자동으로 설치해준다(저 선택지를 체크 하는 것을 추천). 
+바로 위 사진에서 `Install third-party software...`가 있는데, 체크를 하면 자동으로 Nvidia graphic driver를 자동으로 설치해준다.  
 - 데스크탑 컴퓨터의 경우:  
-모니터 연결을 그래픽 카드에 직접하기 때문에, 저 선택지를 체크를 안할 경우 모니터 화면이 안나올 수도 있다.  
+모니터 연결을 그래픽 카드에 직접하기 때문에, 저 선택지를 체크를 안할 경우 모니터 화면이 안나올 수도 있다.(저 선택지를 체크 하는 것을 추천)  
 => 이럴땐, 메인보드에 모니터 연결하면 화면이 나오고 직접 nvidia driver를 설치하면 해결된다.  
 => 또는, Recovery 모드 들어가서. nvidia driver를 설치해주면 된다.  
 - 노트북의 경우:  
