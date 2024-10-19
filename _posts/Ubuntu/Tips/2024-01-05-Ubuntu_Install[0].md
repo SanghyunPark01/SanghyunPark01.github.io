@@ -15,6 +15,10 @@ date: 2024-01-05
 last_modified_at: 2024-01-05
 ---
 
+Ubuntu 22.04 Install  
+Ubuntu 22.04 설치  
+Ubuntu 설치  
+
 # 0. Ubuntu 설치 절차  
 윈도우 노트북을 사용하면서 Ubuntu를 사용할 일이 있을 것이다. 이 때, 보통 기존 SSD의 파티션을 나누거나 외장 SSD를 사용할 것이다. 본 글은 **외장 SSD**에 Ubuntu를 설치하는 과정을 적을 것이다.  
 보통 Ubuntu설치과정은 부팅 USB를 만들고 USB로 부팅을 한 다음 SSD에 Ubuntu를 설치하는 것이다.  

@@ -16,6 +16,10 @@ last_modified_at: 2024-01-10
 ---
 
 [[이전글]Ubuntu 22.04 부팅 USB만들기](https://sanghyunpark01.github.io/ubuntu/tips/Ubuntu_Install-0/)  
+  
+Ubuntu 22.04 Install  
+Ubuntu 22.04 설치  
+Ubuntu 설치  
 
 # 2. Ubuntu 22.04 설치하기  
 본 글은 **외장 SSD**에 Ubuntu를 설치하는 과정을 설명한다. 외장 SSD를 공장 초기화 하는 영상은 아래 링크 참조.  
@@ -51,6 +55,7 @@ last_modified_at: 2024-01-10
    <p align="center"><img src="/Post_img/Ubuntu/Tips/Ubuntu_Install1_partition4.png" width="80%" height="100%"></p>  
 
    여기서 모두 우클릭 후, delete를 눌러서 모두 `unallocated`상태로 만든다. 그러면 아래와 같은 상태가 된다. 여기서 우클릭 후 `new`를 누른다.  
+   만약 이게 되지 않고  `create partition table 어쩌고` 에러가 뜨면, `Device->Create Partition table->type:gpt`로 초기화 해준 후 진행한다.  
    <p align="center"><img src="/Post_img/Ubuntu/Tips/Ubuntu_Install1_partition5.png" width="80%" height="100%"></p>  
 5. 아래 화면처럼 필요한 만큼 파티션을 할당한다.  
    New Size 부분에 원래 `1907728MiB`(총용량)이였는데. 나는 `1900728MiB`만큼 할당해줬다. 그리고 **File System은 ex4**로 설정해준다. 그다음 Add버튼을 누른다.
@@ -80,7 +85,20 @@ last_modified_at: 2024-01-10
 <p align="center"><img src="/Post_img/Ubuntu/Tips/Ubuntu_Install1_install2.png" width="80%" height="100%"></p>  
 <p align="center"><img src="/Post_img/Ubuntu/Tips/Ubuntu_Install1_install3.png" width="80%" height="100%"></p>  
 
-**이제 매우 중요하다.**  
+**[매우 중요!!!!!!!!!!!!!!]**  
+바로 위 사진에서 `Install third-party software...`가 있는데, 체크를 하면 자동으로 Nvidia graphic driver를 자동으로 설치해준다(저 선택지를 체크 하는 것을 추천). 
+- 데스크탑 컴퓨터의 경우:  
+모니터 연결을 그래픽 카드에 직접하기 때문에, 저 선택지를 체크를 안할 경우 모니터 화면이 안나올 수도 있다.  
+=> 이럴땐, 메인보드에 모니터 연결하면 화면이 나오고 직접 nvidia driver를 설치하면 해결된다.  
+=> 또는, Recovery 모드 들어가서. nvidia driver를 설치해주면 된다.  
+- 노트북의 경우:  
+(그래픽 카드가 달려있는)노트북은 기본적으로 내장그래픽이 달려있고, 모니터 또한 내부에서 자동으로 조절해준다. 그래서 만약 저 선택지를 체크할 경우, nvidia-driver가 자동으로 설치되면서 내장그래픽과 충돌이 일어날 수도 있다.(저 선택지 체크 해제를 추천)  
+=> 이럴땐, (nvidia-driver 설치 후)내장그래픽을 꺼주면 된다. [링크 참고: Ubuntu Nouveau비활성화](https://sanghyunpark01.github.io/ubuntu/troubleshooting/Nouveau/)  
+
+**결론 : 데스크탑의 경우 체크하기, GPU달려있는 노트북이면 체크 해제**
+
+
+**아래 과정 또한 매우 중요하다.**  
 아래 사진에서 `Something else`를 클릭 후 continue를 누른다.  
 <p align="center"><img src="/Post_img/Ubuntu/Tips/Ubuntu_Install1_install4.png" width="80%" height="100%"></p>  
 
@@ -97,6 +115,7 @@ last_modified_at: 2024-01-10
    <p align="center"><img src="/Post_img/Ubuntu/Tips/Ubuntu_Install1_install8.png" width="80%" height="100%"></p>  
 5. bootloader위치를 설정해줘야 한다. **아래 처럼 설치할 SSD로 해주어야 한다.(SSD이름이 나오게)**  
    `/dev/sda`가 아닌 `/dev/sda Samsung PSSD T7 (2.0 TB)`처럼 이름이 나와야 한다.  
+   이렇게 하면 자동으로 `efi`파티션(부트로더가 있음)이 생성이 된다. 하지만, 부트로더를 원하는 곳에 설저하고 싶다면, 직접 원하는 곳에 `efi`파티션을 만들어주면 된다.  
    <p align="center"><img src="/Post_img/Ubuntu/Tips/Ubuntu_Install1_install9.png" width="80%" height="100%"></p>  
 
 다 되었으면 install now를 누른다. 아래 화면처럼 뭐가 뜰텐데 Continue를 누른다.  

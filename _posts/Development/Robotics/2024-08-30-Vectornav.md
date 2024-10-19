@@ -14,6 +14,10 @@ use_math: true
 date: 2024-08-30
 last_modified_at: 2024-08-30
 ---  
+VectorNav IMU  
+Ubuntu VectorNav  
+VectorNav ROS  
+
 # 0.VectorNav IMU
 VectorNav사의 IMU중에 [VN-100](https://www.vectornav.com/products/detail/vn-100?gad_source=1&gclid=EAIaIQobChMIv6jQvoqiiAMVrS57Bx2dER97EAAYASAAEgL17fD_BwE)모델을 돌려보는 방법을 설명할 것이다.
 

@@ -14,6 +14,11 @@ use_math: true
 date: 2024-01-20
 last_modified_at: 2024-01-20
 ---  
+ROS2 Install  
+Ubuntu ROS2 Install  
+ROS2 설치  
+Ubuntu ROS2 설치  
+
 # Ubuntu 22.04에 ROS2 설치하기  
 현재 Ubuntu 22.04버전에서 ROS2 Humble과 Iron을 지원한다.  
 현재 최신 버전인 Iron을 설치할 것이다.  
